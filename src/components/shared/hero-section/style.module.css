@@ -1,0 +1,80 @@
+.hero_container {
+  display: flex;
+  align-items: center;
+  background: #495E57;
+}
+.section {
+  position: relative;
+  height: 24.4375rem;
+  max-width: 90rem;
+  padding: 1.25rem 10.3125rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  position: absolute;
+  top: 1.25rem;
+  right: 10.3125rem;
+  width: 22.1875rem;
+  height: 25.9375rem;
+  border-radius: 1rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.section {
+  background: #495E57;
+}
+.description {
+  max-width: 20.625rem;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: #FFFFFF;
+}
+.h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4.8125rem;
+  color: #F4CE14;
+}
+.city {
+  font-family: 'Markazi Text';
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #FFFFFF;
+}
+
+@media (max-width: 64rem) {
+  .section {
+    padding: 1.25rem;
+  }
+  .img {
+    right: 1.25rem;
+  }
+}
+
+@media (max-width: 45.25rem) {
+  .section {
+    height: auto !important;
+    flex-direction: column;
+  }
+  .img {
+    position: initial;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 0.9375rem;
+  }
+}

@@ -1,0 +1,31 @@
+.parent,
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 90rem;
+  padding: 1.25rem 10.3125rem;
+  margin: 0 auto;
+  justify-content: space-between
+}
+
+.text h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.625rem;
+}
+
+@media (max-width: 72.5rem) {
+  .parent,
+  .text {
+    gap: 1.25rem;
+    padding: 2.5rem 1.25rem;
+  }
+}
+
+@media (max-width: 36.25rem) {
+  .parent {
+    justify-content: center;
+  }
+}

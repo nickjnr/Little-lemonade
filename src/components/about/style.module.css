@@ -1,0 +1,95 @@
+.parent {
+  width: 100%;
+  background-color: #F4CE14;
+  min-height: 34.625rem;
+}
+.container {
+  max-width: 90rem;
+  padding: 2.5rem 10.3125rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  max-width: 23.75rem;
+}
+.text h5 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.text .city {
+  font-size: 1.375rem;
+  font-weight: 500;
+  margin-bottom: 0.9375rem;
+}
+.text p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.images {
+  position: relative;
+  min-height: 29.625rem;
+  width: 100%;
+}
+.image1 {
+  position: absolute;
+  right: 0rem !important; 
+  z-index: 2;
+}
+.image2 {
+  position: absolute;
+  right: 10rem;
+  top: 8.5rem;
+}
+.image1,
+.image2 {
+  object-fit: cover;
+  max-width: 17.25rem;
+  width: 100%;
+  height: 21.125rem;
+}
+@media (max-width: 72.5rem) {
+  .container {
+    padding: 2.5rem 1.25rem;
+  }
+}
+@media (max-width: 53.75rem) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .images {
+    position: initial !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image1,
+  .image2 {
+    position: initial;
+  }
+  .image2 {
+    position: relative;
+    right: 1.25rem;
+    top: -2.5rem;
+  }
+  .image1 {
+    position: relative;
+    left: 1.25rem;
+    top: 2.5rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .images {
+    position: relative !important;
+    width: 80% !important;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .image1,
+  .image2 {
+    position: initial;
+  }
+}

@@ -1,0 +1,18 @@
+.parent {
+  width: 100%;
+  background: url("../../../assets/food4.webp") no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 69.375rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.parent h1 { 
+  font-size: 2.625rem;
+  color: #fff;
+  background-color: #495E57;
+  padding: 1.25rem;
+}

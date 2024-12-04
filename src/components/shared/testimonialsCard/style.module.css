@@ -1,0 +1,26 @@
+.parent {
+  background-color: gray;
+  max-width: 11.9375rem;
+  width: 100%;
+  min-height: 12.125rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0.625rem;
+  min-width: 13.75rem;
+}
+
+.img {
+  width: 2.8125rem;
+  height: 3.25rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.description {
+  font-weight: 400;
+}

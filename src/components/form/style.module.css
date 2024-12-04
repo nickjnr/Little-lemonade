@@ -1,0 +1,20 @@
+.form {
+  display: grid; 
+  max-width: 200px;
+  gap: 20px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 20px 165px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+}

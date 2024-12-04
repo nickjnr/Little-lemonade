@@ -1,0 +1,15 @@
+.a {
+  font-family: 'Karla';
+  display: grid;
+  place-content: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 12.625rem;
+  height: 3.5rem;
+  background: #F4CE14;
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.6875rem;
+  color: #000;
+}
